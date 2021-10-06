@@ -37,7 +37,7 @@ public class JpaMain {
              * 여러개 조회 : JPQL
              */
             // Member 객체를 대상으로 Query
-            List<Member> result = em.createQuery("SELECT m FROM Member m", Member.class).getResultList();
+//            List<Member> result = em.createQuery("SELECT m FROM Member m", Member.class).getResultList();
 
 
 
